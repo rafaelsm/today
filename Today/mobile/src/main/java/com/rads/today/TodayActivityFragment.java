@@ -6,9 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * A placeholder fragment containing a simple view.
- */
 public class TodayActivityFragment extends Fragment {
 
     public TodayActivityFragment() {
@@ -17,6 +14,13 @@ public class TodayActivityFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        loadTasks();
+
         return inflater.inflate(R.layout.fragment_today, container, false);
+    }
+
+    private void loadTasks() {
+
     }
 }

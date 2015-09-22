@@ -13,6 +13,7 @@ public class TodayActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.TodayTheme_NoActionBar);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_today);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);

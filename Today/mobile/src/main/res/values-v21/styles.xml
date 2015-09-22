@@ -1,4 +1,7 @@
 <resources>
+    <style name="TodayTheme.Launcher">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+    </style>
     <style name="TodayTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
